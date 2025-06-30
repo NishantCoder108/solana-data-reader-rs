@@ -60,3 +60,19 @@ cargo install better-uptime
 6. Add important dependencies for api package
     - For `solana-client` and `solana-sdk` we can use `cargo add solana-client solana-sdk`
 7. Write code for fetch balance from solana blockchain
+
+
+#### Routes:
+```rust
+
+let app = Route::new()
+        .at("/hello/:name", get(hello))
+        .at("/yourname/:name", get(your_name))
+        .at("/health", get(health))
+        .at("/", get(home))
+        // Adding a route for blockchain balance
+        .at("/balance/:addr", get(balance))
+        .at("/tx_history/:addr", get(tx_history));
+
+
+```
