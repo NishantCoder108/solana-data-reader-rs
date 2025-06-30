@@ -1,25 +1,4 @@
-# Better Uptime
-
-Better Uptime is a simple uptime monitor written in Rust. It is designed to be a lightweight and fast alternative to other uptime monitoring tools.
-
-## Features
-
-- Simple and easy to use
-- Lightweight and fast
-- Configurable
-- Supports multiple monitoring methods
-- Supports multiple monitoring sources
-- Supports multiple monitoring protocols
-- Supports multiple monitoring services
-
-## Installation
-
-To install Better Uptime, you can use the following command:
-
-```bash
-cargo install better-uptime
-```
-
+# Read Solana Blockchain by API calls
 
 
 ### What I Learned
@@ -76,3 +55,7 @@ let app = Route::new()
 
 
 ```
+
+
+#### RUN :
+- `cargo run` : It will run on localhost:3000 and we can test api 
